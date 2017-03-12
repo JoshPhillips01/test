@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <title> Homework Exercises </title>
+
+    <style>
+
+    div p {
+      background-color: purple;
+    }
+
+    div > p {
+        background-color: red;
+    }
+
+    div p + p {
+      background-color: blue
+    }
+
+    div ~ p {
+        background-color: orange;
+    }
+
+
+    </style>
+
+  </head>
+
+
+<body>
+
+  <p> leave this text as the default black </p>
+<div>
+    <ol type="1.">
+    <li>
+  <p> make the text for list items 1 & 2 purple using a descendant selector </p>
+    </li>
+    <li>
+  <p> make the text for list items 1 & 2 purple using a descendant selector </p>
+    </li>
+<div>
+  <p> make this text red using a child selector </p>
+</div>
+<p></p>
+  <p> make this text blue using an adjacent selector </p>
+
+make this text orange using a general sibling selector;and this phrase pink by combining 2 types of selectors </div>
+
+</body>
+
+<html>
