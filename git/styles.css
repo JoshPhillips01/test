@@ -26,7 +26,7 @@ div {
   margin-right: auto;
 }
 .nav {
-  width:920px;
+  max-width:920px;
   height: 50px;
   margin-left: auto;
   margin-right: auto;
@@ -44,4 +44,29 @@ div {
 }
 .nav li:last-child {
   border-right: none;
+}
+.aboutContainer {
+  max-width: 920px;
+  height: 215px;
+  background-color: #87A984;
+
+}
+.about {
+  max-width: 450px;
+  padding-top: 40px;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about p {
+  display: block;
+  font-size: 1.1rem;
+  font-weight: lighter;
+  font-family: sans-serif;
+}
+
+.about img {
+  width: 210px;
+  height: 215px;
 }
