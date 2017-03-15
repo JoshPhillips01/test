@@ -56,7 +56,6 @@ div {
   width: 210px;
   height: 215px;
   float:left;
-
 }
 .about {
   max-width: 450px;
@@ -64,10 +63,45 @@ div {
   font-size: 2rem;
   font-weight: bold;
   float: left;
+  padding-left: 20px;
 }
 .about p {
   display: block;
   font-size: 1.1rem;
   font-weight: lighter;
   font-family: sans-serif;
+}
+.secondNav {
+  max-width: 200px;
+  height: 620px;
+  background-color: #96AFAC;
+  float: left;
+}
+.mainBody {
+  max-width: 800px;
+  height: 620px;
+  background-color: #DBD8C5;
+  color: #576D78;
+  font-family: sans-serif;
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 45px;
+  float: left;
+  margin-left: 35px;
+}
+.mainBody p {
+  width: 660px;
+  font-size: 1rem;
+  font-weight: normal;
+  color: black;
+  padding-top: 20px;
+}
+.contentContainer {
+  max-width: 920px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 1px blue solid;
+  overflow:hidden;
 }
