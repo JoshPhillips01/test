@@ -71,3 +71,54 @@ div {
   font-weight: lighter;
   font-family: sans-serif;
 }
+/* making separate boxs then making seperate class */
+.leftBox {
+  width: 170px;
+  background-color: #96AFAC;
+  height: 700px;
+  padding: 20px;
+  float:left;
+}
+/*
+.subNav li {
+  font-size: 15px;
+  font-family: sans-serif;
+  border-bottom: 1px solid #FFFFFF;
+  list-style: none;
+  list-style-type:none;
+  margin:0;
+  padding: 0px;
+  border: 1px red solid;
+}
+*/
+.subNav p {
+  border-bottom: 1px solid #FFFFFF;
+  padding: 0px 0px 15px 0px;
+  margin: 10px 0px 20px 0px;
+}
+
+.rightBox {
+  overflow: hidden;
+  width: 710px;
+  background-color: #DBD8C5;
+  height: 700px;
+  float: left;
+}
+.rightBox h3 {
+  font-family: sans-serif;
+  font-size: 1.8rem;
+  color: #576A7B;
+  margin-left: 40px;
+}
+.rightBox p {
+  color: rgba(0,0,0,0.55);
+  font-family: sans-serif;
+  margin: 25px 40px 0px 40px;
+}
+.midContainer {
+  overflow:hidden;
+  width: 920px;
+  height: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
